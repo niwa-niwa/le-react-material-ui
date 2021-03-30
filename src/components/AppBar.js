@@ -11,20 +11,18 @@ import green from "@material-ui/core/colors/green"
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
-    marginRight: {
-      marginRight: theme.spacing(2)
-    },
-    title: {
-      flexGrow: 1
-    },
-    customColor: {
-      backgroundColor: green[500]
-    },
-    customHeight: {
-      minHeight:200
-    },
-    offset: theme.mixins.toolbar
+    marginRight: theme.spacing(2)
   },
+  title: {
+    flexGrow: 1
+  },
+  customColor: {
+    backgroundColor: green[500]
+  },
+  customHeight: {
+    minHeight:200
+  },
+  offset: theme.mixins.toolbar
 }))
 
 export default function ButtonAppBar() {
