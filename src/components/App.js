@@ -2,13 +2,13 @@ import React from 'react'
 import {Router, Route, Switch} from 'react-router-dom'
 import history from "../history"
 
-import PartOne from "./PartOne"
+import AppBar from "./AppBar"
 
 const App = () => {
   return(
     <Router history={history}>
       <Switch>
-        <Route path="/" exact component={PartOne} />
+        <Route path="/" exact component={AppBar} />
       </Switch>
     </Router>
   )
